@@ -1,0 +1,15 @@
+{
+  "name": "Bloom",
+  "description": " Myerscough College's learning space.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "webview"
+  ],
+  "icons": { "16": "icon16.png", "128": "icon128.png" }
+}
